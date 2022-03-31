@@ -9,4 +9,9 @@ app.get('/', (req, res) => {
 })
 
 
+app.get('/test', (req, res) => {
+    return res.send(`How was your CF challenge?`)
+})
+
+
 app.listen(80)
